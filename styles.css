@@ -47,6 +47,7 @@ body {
 	margin: 0 0 1px; height: 100%; 
 	line-height: 1.7;
 	border-top: 10px solid black;
+	
 }
 
 .bg {
@@ -78,7 +79,7 @@ h1 {
 	font-size: 42px;
 	line-height: 0.9;
 	color: #666666;
-	text-align: left;
+	text-align: justify;
 	margin-bottom: 13px;
 	padding-bottom: 15px;
 }
@@ -116,6 +117,16 @@ h4 {
 	text-align: left;
 	margin-bottom: 8px;
 	padding-top: 3px;
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 0.9;
+	color: #E0F7FA;
+	text-align: center;
+	margin-bottom: 8px;
+	padding-top: 3px;
+
 }
 
 /***************************************************
@@ -262,14 +273,14 @@ a.photo_hover2: hover {
 
 footer {
 	position: relative;
-	height: 90px;
+	height: 120px;
 	clear: both;
 	width: 100%;
 	background-image: url(../images/footer.png);
 	background-position: left top;
 	background-repeat: repeat-x;
 	margin-bottom: 18px;
-	background-color: black;
+	background-color: #F44336;
 }
 
 #FooterOne, #FooterTwo, #FooterTree {
@@ -417,3 +428,8 @@ nav ul li a.current {
 	position: relative;
 	top: 1px;
 }
+
+/*****************************************************
+					SVG art
+*****************************************************/
+#Layer_1 {margin-left:auto; margin-right:auto; display:block;}
